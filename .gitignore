@@ -1,0 +1,27 @@
+# Python
+
+**pycache**/
+\*.py\[cod]
+\*.pyo
+\*.pyd
+env/
+venv/
+\*.egg-info/
+
+# Notebooks
+
+.ipynb\_checkpoints/
+
+# Data / embeddings
+
+data/
+embeddings/
+
+# VS Code
+
+.vscode/
+
+# OS
+
+.DS\_Store
+Thumbs.db
