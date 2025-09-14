@@ -1,0 +1,255 @@
+Modelos de desarrollo de software
+
+
+
+La metodología de desarrollo de software es un marco de trabajo usado para estructurar, planificar, controlar el proceso de desarrollo de sistemas de información. 
+
+A lo largo del tiempo se han desarrollado varias metodologías, cada una con sus fortalezas y sus debilidades.
+
+Su objetivo es, por un lado, determinar el orden de las fases y los procesos involucrados en el desarrollo de software y establecer los criterios de transición para pasar de una fase a la siguiente., o sea cómo determinar los productos intermedios o entregables.
+
+Las fases que veremos en detalle más adelante son:
+
+Reconocimiento
+
+Relevamiento
+
+Especificación de requerimientos
+
+Análisis funcional
+
+Diseño
+
+Construcción
+
+Testing o pruebas
+
+Implementación
+
+Mantenimiento
+
+Las metodologías de desarrollo de software han propuesto varios modelos para diferentes criterios de transición entre orden de fases.
+
+Nos enfocaremos en los siguientes modelos:
+
+Cascada pura
+
+Incremental
+
+Modelo en V
+
+Modelo ágil
+
+
+
+
+Modelo Cascada
+
+
+
+El primer modelo de ciclo de vida fue el de cascada, y aunque hoy en día presenta varios problemas de aplicación aportó una base metodológica disciplinada que sirvió de fundamentos para nuevas propuestas y una rutina de documentación imprescindible para el mantenimiento posterior al cierre del proyecto.
+
+El desarrollo avanza en forma secuencia a través de etapas que deben haber finalizado para pasar a la siguiente. 
+
+Las etapas pueden varias según diferentes autores, pero las mas aceptadas son relevamiento y definición de requisitos de sistema, análisis, diseño, codificación o construcción, pruebas e instalación. 
+
+Al necesitar que todas las actividades de cada etapa estén cerradas antes de pasar a la siguiente hace que el tiempo de duración del proyecto sea extenso. Otro inconveniente es que no proporciona resultados de software tangibles hasta el final del ciclo de vida. Es un modelo adecuado cuando se tiene escasa incertidumbre contextual y una definición estable y completa del producto en la etapa inicial. No es flexible a los cambios. Escenario que hoy en día no es habitual.
+
+Por otra parte, el usuario participaba activamente en la etapa de definición de requerimientos y en la entrega final de productos, no hay etapas intermedias de revisión y aprobación. 
+
+Para minimizar situaciones de disconformidad del usuario y modificación del producto el modelo evolucionó al modelo en cascada con retroalimentación donde el usuario participaba, aunque mínimamente, en etapas intermedias que permitían ajustes antes de llegar a la entrega final, aunque el costo y esfuerzo de volver atrás era alto.
+
+
+
+
+
+Incremental
+
+
+
+Acompañando la aparición de los sistemas ERP caracterizados por módulos implementables de forma independiente, aparece el modelo iterativo incremental, donde a partir del diseño global es posible desarrolla e implementar módulos de un sistema de forma simultanea e independiente corrigiendo los problemas de la secuencialidad de tareas.
+
+A diferencia del modelo por subproyectos donde los módulos debían integrarse en la etapa de pruebas, en este modelo, a partir del diseño global todas las etapas pueden ejecutarse para cada módulo, es decir, cada parte se desarrolla de manera completa.
+
+Para la entrada a producción del sistema bajo el modelo por subproyectos debe n haberse integrado todos los módulos en la fase de pruebas, no es posible su implementación modular.
+
+Con este modelo una empresa puede implementar inicialmente uno de los módulos y por razones organizacionales o financieras ir implementando el resto en forma secuencial teniendo en funcionamiento cada uno a medida que son instalados, de allí el nombre por incrementos, o realizar la implementación de todos los módulos adquiridos en simultaneo, pero con equipos de desarrollo diferentes y en tiempos de finalización diferentes.
+
+
+
+Su gran ventaja es la entrega de un valor tangible al cliente en forma escalonada y no todo al final. El sistema ya no se ve como una entidad monolítica con una fecha final fija de entrega sino como una integración de resultado sucesivos.
+
+
+
+
+Modelo en v
+
+
+
+El método V es una representación grafica en 4 niveles del ciclo de vida del sistema. Resume los pasos principales que hay que tomar en conjunción con las correspondientes entregas de los sistemas de validación.
+
+Hay una dimensión de especificación hasta la fase de construcción y una dimensión de integración y pruebas posterior.
+
+La unión mediante líneas entre las fases de la parte izquierda y de la derecha representan una doble información, por un lado, sirve para indicar en qué fase de desarrollo se deben definir las pruebas correspondientes y por otro sirve para saber a qué fase de desarrollo hay que volver si se encuentran fallas en las pruebas correspondientes. 
+
+
+
+
+Métodos ágiles
+
+
+
+El surgimiento de requerimientos rápidos e imprecisos como consecuencia de los avances de tecnología y la globalización, demandan rapidez al desarrollo de software. Aparecen en respuesta las metodologías ágiles, alternativas que procuran un enfoque en el software y no en la documentación. Dan la bienvenida a requerimientos cambiantes y entregas funcionales muy pequeñas y escalonadas desde etapas tempranas con la participación intensiva del cliente.
+
+Scrum
+
+
+
+Son muchos los procesos que adoptaron los principios ágiles, pero el que se ha impuesto es Scrum. En Scrum, un proyecto se ejecuta en ciclos temporales cortos y de duración fija, llamados sprints, que son iteraciones normalmente de dos a cuatro semanas.
+
+Cada iteración tiene que proporcionar un resultado completo, que sea un incremento de producto final. Veamos en detalle todos los elementos que participan de Scrum, los roles, los artefactos y las fases.
+
+En la metodología Scrum podemos identificar tres roles, el Product Owner, el Scrum Master y el Scrum Team. Estos tres roles obligatoriamente se requieren para crear el producto del proyecto, son los responsables del éxito de cada sprint y del proyecto en su totalidad.
+
+
+
+El Product Owner o Producto es conocido como la voz del cliente. Sus responsabilidades son básicamente definir las funcionalidades del producto y priorizarlas, y aceptar, rechazar o pedir ajustes de los resultados de cada entrega.
+
+El Scrum Master debe tener una actitud de líder servicial para el equipo Scrum, no la visión clásica del líder o director de proyecto que dirige y controla el avance de las tareas. Es quien modera y facilita las interacciones del equipo como motivador. Este rol es responsable de promover los valores y prácticas de Scrum y asegurar un ambiente de trabajo productivo para el equipo.
+
+
+
+El Scrum Team consiste en un grupo de personas que trabajan en la lista de pendientes del sprint para crear las entregables del proyecto. Nadie, ni siquiera el Scrum Master, indica al Scrum Team cómo cumplir los objetivos del sprint. Es un equipo autogestionado y multifuncional que cuenta con todas las habilidades necesarias. El tamaño ideal de un equipo Scrum es de 5 a 9 miembros y sólo puede haber cambio de integrantes entre iteraciones. 
+
+
+
+Artefactos
+
+
+
+Los artefactos Scrum son los elementos de trabajo que garantizan la transparencia de los procesos y el registro de la información. Son cuatro, el RBS, Requirements Breakdown Structure, el Product Backlog, los Bottom Down Chart y el Sprint Backlog, y los incrementos. Veamos cada uno en detalle.
+
+RBS
+
+
+
+El RBS, Requirements Breakdown Structure, es una descripción jerárquica, una estructura de tipo árbol top-down, de las necesidades expresadas por el cliente y documentadas en el relevamiento. Debe tener como máximo cuatro niveles.
+
+En el primer nivel estarán los requerimientos expresados por el cliente como una expresión de alto nivel. En el segundo, las funciones principales que están involucradas en ese requerimiento. El tercero, opcionalmente, subfunciones, en el caso de funciones complejas.
+
+Y, por último, las características de cada función o subfunción, según correspondan, secuencias, restricciones, decisiones, etc. Es importantísimo destacar que las características pueden estar todavía incompletas, pero no los requerimientos.
+
+Product Backlog
+
+
+
+El Product Backlog es una lista que recoge todo lo que necesita el producto para satisfacer las necesidades del cliente, de la que el Product Owner es el único responsable de su contenido y priorización.
+
+Es el documento que engloba todos los requerimientos del proyecto y se mantiene hasta su finalización, salvo que el Product Owner establezca modificaciones a los requerimientos, en cuyo caso deberá reformularse. La información mínima a registrar en el Product Backlog es la descripción de los requerimientos, el orden de prioridad para el cliente, las condiciones de aprobación, la estimación del esfuerzo y el tiempo de entrega. Este último ítem es definido por el Scrum Team, ya que es el que va a realizar el trabajo.
+
+Incremento
+
+
+
+El incremento es el resultado del sprint. Es un entregable terminado y listo para entrar en uso. Es el Product Owner quien lo aprueba y lo libera en cada incremento.
+
+Burndown chart
+
+
+
+El progreso global del proyecto es visible en el Burndown Chart que es actualizado por el Scrum Master al finalizar cada sprint. En el eje horizontal se representan los sucesivos sprints y en el vertical la cantidad de trabajo pendiente al inicio de cada sprint es expresado en unidades que el equipo haya elegido. Pueden ser puntos que representen el tamaño o la dificultad de las tareas, los días previstos de trabajo, etc.
+
+Una línea representa el desarrollo previsto y sobre ella se van graficando el estado al finalizar cada sprint. 
+
+Veamos dos ejemplos. En el primero, a partir del tercer sprint, el trabajo restante queda muy por encima de lo planeado, o sea, queda mucho trabajo.
+
+Hay un desvío negativo muy importante. En el segundo ejemplo, vemos que el trabajo restante es mucho menos de lo previsto. El equipo va muy bien.
+
+
+
+Sprint Backlog
+
+
+
+El Sprint Backlog es un subconjunto de requisitos a partir del Product Backlog elegidos para abordarse en un sprint y convertirlos en un incremento o entregable funcional con la posibilidad de liberación o no en función de la decisión del Product Owner. El Sprint Backlog es gestionado por los miembros del Scrum Team, no por el Scrum Master. Hace visibles las acciones necesarias para conseguir el objetivo del sprint.
+
+Estas tareas nunca son asignadas, sino tomadas por los miembros del equipo. 
+
+Las tareas van pasando por estados, típicamente pendiente, en curso y terminada, convirtiéndose esta herramienta en una imagen en tiempo real del avance del trabajo. Están ejemplificados como post-adesivos, pero se utiliza software que maneja en forma gráfica los movimientos.
+
+
+
+Scrum – Fases
+
+
+
+Las fases son pre-planificación, planificación, ejecución y cierre, que ahora veremos en detalle. Aparece el concepto de Timebox, que es el tiempo máximo de realización de actividades. Son cortos y se pretende eficiencia en la comunicación, no socialización.
+
+Pre-planificación
+
+La pre-planificación abarca todas las actividades de relevamiento para obtener la lista de requerimientos y su estructuración jerárquica en el artefacto RBS que ya vimos. 
+
+Planificación
+
+La planificación se divide en dos partes. En la primera, el cliente define la prioridad de la lista de requisitos, el Product Backlog, y se organizan en iteraciones. En la segunda parte, el equipo planifica la operación definiendo el cómo conseguirán el mejor resultado posible con el mínimo esfuerzo. Los equipos se auto-organizan para resolver estos objetivos.
+
+Ejecución
+
+La siguiente fase es la ejecución de cada sprint, que se divide a su vez en planificación del sprint, construcción, revisión y retrospectiva.
+
+Planificación
+
+
+
+En la fase de planificación se realiza la reunión del equipo con un Timebox de cuatro horas y se establece el Sprint Backlog a partir de las prioridades establecidas en el Product Backlog. 
+
+Construcción
+
+
+
+Durante la construcción se realizan reuniones diarias, las Daily Meetings, de 15 minutos de Timebox con el objetivo de que cada integrante del equipo comunique lo realizado el día anterior y poder sincronizar la actividad. Qué se espera realizar hoy y qué impedimentos pueden ser resueltos en el caso que existieran y que obstaculicen la tarea prevista. No es una reunión para justificar lo realizado o no, es sólo para informar y sincronizar.
+
+
+
+Sprint Review Meeting
+
+
+
+
+
+La reunión de revisión es una reunión también con un Timebox de cuatro horas donde se presenta al Product Owner lo realizado para su aprobación o modificación.
+
+
+
+Sprint retrospective
+
+
+
+La retrospectiva del sprint con un Timebox de tres horas tiene como objetivo identificar qué se puede mejorar para hacer el trabajo más productivo en los próximos sprints del proyecto siguiendo los lineamientos de PM, Project Management, que recomienda la actualización del registro de lecciones aprendidas en cada iteración.
+
+
+
+Cierre
+
+En la fase de cierre se realiza una reunión retrospectiva final para reflexionar sobre todo lo realizado durante el proyecto, identificar mejoras para los próximos proyectos en base a gestión de conocimiento a partir de las lecciones aprendidas y redactar el documento de cierre del proyecto.
+
+
+
+
+A modo de cierre, cada modelo tiene fortalezas y debilidades. 
+
+¿Cuáles serían los criterios que la gestión de proyecto pudiera utilizar para una selección adecuada? 
+
+El tipo y el tamaño de la organización donde se implementará el sistema, el contexto de desarrollo si es estable o cambiante, las habilidades de los integrantes del equipo del proyecto o la naturaleza del proyecto y del producto a desarrollar, tecnología probada o disruptiva, por ejemplo.
+
+
+
+Etapas del Ciclo de Desarrollo de Sistemas de Información
+
+
+
+Para ser gestionado y controlado eficazmente, un proyecto de desarrollo de sistemas debe ejecutarse siguiendo un ciclo de una serie de etapas que suelen llamarse reconocimiento, relevamiento, análisis, diseño, construcción, pruebas e implementación. Algunos autores les han dado otros nombres, pero sus objetivos son similares.
+
+En el modelo estructurado funcional, que es el que estaremos estudiando en esta materia, estas etapas son secuenciales, con algún grado de retroalimentación entre algunas.
+
+Con el tiempo, otros modelos fueron agregando mayor grado de retroalimentación e incluso la ejecución de algunas etapas en simultáneo. Vamos a ir viendo ahora las características de cada una de esas etapas, las técnicas con que se obtienen los datos que necesitan para ejecutarse y el resultado o entregable que cada uno genera.

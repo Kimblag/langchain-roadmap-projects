@@ -1,0 +1,6 @@
+langchain
+transformers
+sentence_transformers
+faiss-cpu
+langchain-huggingface
+numpy
